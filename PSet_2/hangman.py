@@ -86,11 +86,6 @@ def get_guessed_word(sec_word, letters_guessed):
     return res
 
 
-# secret_word = 'apple'
-# letters_guessed = ['e', 'i', 'k', 'p', 'r', 's']
-# print(get_guessed_word(secret_word, letters_guessed))
-
-
 def get_available_letters(letters_guessed):
     """
     letters_guessed: list (of letters), which letters have been guessed so far
